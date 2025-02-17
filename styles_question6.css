@@ -1,0 +1,66 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light grey background */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centering the list container */
+.container {
+    background: white;
+    width: 40%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling the heading */
+h2 {
+    color: #333;
+}
+
+/* List Styling */
+#custom-list {
+    list-style-type: circle; /* Circle bullet points */
+    padding: 0;
+}
+
+#custom-list li {
+    margin: 15px 0; /* Add space between list items */
+}
+
+/* Link Styling */
+#custom-list a {
+    text-decoration: none; /* Remove underline */
+    font-style: italic; /* Italic text */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Link Pseudo-Classes */
+#custom-list a:link {
+    color: blue;
+}
+
+#custom-list a:visited {
+    color: purple;
+}
+
+#custom-list a:hover {
+    color: white;
+    background-color: red; /* Highlight on hover */
+    transform: scale(1.1);
+}
+
+#custom-list a:active {
+    color: white;
+    background-color: green; /* Click effect */
+    transform: scale(0.95);
+}

@@ -1,0 +1,35 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centering buttons */
+.button-container {
+    margin-top: 50px;
+}
+
+/* Button Styling */
+.custom-button {
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer;
+    margin: 10px;
+    text-decoration: none; /* Remove underline */
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.custom-button:hover {
+    background-color: darkorange;
+    transform: scale(1.1); /* Slight zoom effect */
+}
